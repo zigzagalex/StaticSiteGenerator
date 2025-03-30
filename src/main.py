@@ -1,8 +1,4 @@
-from textnode import *
-from htmlnode import *
-from typing import List
-from split import *
-
+from textnode import TextNode, TextType
 
 
 
