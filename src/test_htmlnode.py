@@ -1,9 +1,7 @@
 import unittest
 
 from htmlnode import HTMLNode, LeafNode, ParentNode
-from textnode import TextType, TextNode
-from main import text_node_to_html_node
-
+from textnode import TextType, TextNode, text_node_to_html_node
 
 class TestHtmlnode(unittest.TestCase):
     def test_eq(self):
