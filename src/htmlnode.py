@@ -33,13 +33,19 @@ class LeafNode(HTMLNode):
     def __init__(self, tag: str, value: str, props: Optional[Dict] = None):
         super().__init__(tag=tag, value=value, props=props)
 
+    def props_to_html(self):
+        if not self.props:
+            return ""
+        return " " + " ".join(f'{key}="{value}"' for key, value in self.props.items())
+
     def to_html(self):
-        if self.value is None:
-            raise ValueError("value cannot be None")
+        props_str = self.props_to_html()
         if self.tag is None:
-            return str(self.value)
+            return self.value
+        elif self.tag == "img":
+            return f"<img{props_str} />"
         else:
-            return f"<{self.tag}>{self.value}</{self.tag}>"
+            return f"<{self.tag}{props_str}>{self.value}</{self.tag}>"
 
 
 class ParentNode(HTMLNode):
