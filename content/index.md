@@ -1,44 +1,60 @@
-# Tolkien Fan Club
+# Dieter Rams Fan Club
 
-![JRR Tolkien sitting](/images/tolkien.png)
+![Dieter Rams in his office](/images/dieter-rams-portrait.png)
 
-Here's the deal, **I like Tolkien**.
+Here's the deal, **I like Dieter Rams**.
 
-> "I am in fact a Hobbit in all but size."
+> "Weniger aber besser."
 >
-> -- J.R.R. Tolkien
+> -- Dieter Rams
 
 ## Blog posts
 
-- [Why Glorfindel is More Impressive than Legolas](/blog/glorfindel)
-- [Why Tom Bombadil Was a Mistake](/blog/tom)
-- [The Unparalleled Majesty of "The Lord of the Rings"](/blog/majesty)
+- [10 Principles, 0 Bullsh*t: Why Dieter Rams Still Runs Modern Design](/blog/glorfindel)
+- [Braun > Beats: Dieter Rams Designed the Future Before You Were Born](/blog/tom)
+- [Why Your Website Needs a Little More Rams and a Lot Less Chaos](/blog/majesty)
 
-## Reasons I like Tolkien
+## Reasons I like Rams
 
-- You can spend years studying the legendarium and still not understand its depths
-- It can be enjoyed by children and adults alike
-- Disney _didn't ruin it_ (okay, but Amazon might have)
-- It created an entirely new genre of fantasy
+- In an overcrowded hyperfast world he pleads for simplicity, less clutter and better quality
+- He respects the world and the user
+- He believes in rethinking systems as a whole instead of trying to solve some little problem
+- His German manners and attitude to collaboration
 
-## My favorite characters (in order)
+## My favorite Dieter Rams Products (in order)
 
-1. Gandalf
-2. Bilbo
-3. Sam
-4. Glorfindel
-5. Galadriel
-6. Elrond
-7. Thorin
-8. Sauron
-9. Aragorn
+1. Braun SK 4 Radiogram (1956)  
+2. Braun T3 Pocket Radio (1958)  
+3. Braun RT 20 Tabletop Radio (1961)  
+4. Braun ET 66 Calculator (1987)  
+5. Braun TP 1 Portable Radio/Phonograph (1959)  
+6. Braun LE1 Electrostatic Speaker (1959)  
+7. Braun HL 70 Desk Fan (1961)  
+8. Braun 606 Universal Shelving System (1960)  
+9. Braun TS 45 + TG 60 Stereo System (1965)  
+10. Braun ABR 21 Alarm Clock (1978)
 
-Here's what `elflang` looks like (the perfect coding language):
+> “Good design is as little design as possible.”  
+> — Dieter Rams, Principle #10
 
-```
-func main(){
-    fmt.Println("Aiya, Ambar!")
-}
+In **coding**, this translates to:
+
+> **Good code is as little code as necessary.**
+
+1. Clear
+2. No overengineering
+3. No cleverness for cleverness’s sake
+4. Just what’s needed — nothing more.
+
+```python
+def get_user_name_if_exists(user_dict):
+    if "name" in user_dict.keys():
+        return user_dict["name"]
+    else:
+        return None
+    
+def get_user_name(user):
+    return user.get("name")
 ```
 
 Want to get in touch? [Contact me here](/contact).
