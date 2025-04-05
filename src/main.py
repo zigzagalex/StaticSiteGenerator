@@ -1,5 +1,8 @@
 import shutil
 import os
+import sys
+from pathlib import Path
+
 from generate import generate_page, generate_pages_recursive
 
 def recursive_copy(current_src: str, current_dest: str):
@@ -27,12 +30,24 @@ def copy_static_files(src: str, dest: str):
 
 
 if __name__ == '__main__':
-    path_static = "/Users/alexeyzagorulko/PycharmProjects/StaticSiteGenerator/static"
-    path_public = "/Users/alexeyzagorulko/PycharmProjects/StaticSiteGenerator/public"
+    basepath = sys.argv[1] if len(sys.argv) > 1 else "/"
+    if not basepath.endswith("/"):
+        basepath += "/"
+
+    print(basepath)
+    project_root = Path(__file__).parent.parent
+
+    dest_path = project_root / "docs"
+    static_dir = project_root / "static"
+    from_path = project_root / "content"
+    template_path = project_root / "template.html"
+
+    path_static = "static"
+    path_public = "public"
     path_template = "/Users/alexeyzagorulko/PycharmProjects/StaticSiteGenerator/template.html"
     content_path = "/Users/alexeyzagorulko/PycharmProjects/StaticSiteGenerator/content"
-    copy_static_files(path_static, path_public)
-    if os.path.isfile(content_path):
-        generate_page(content_path, path_template, path_public)
+    copy_static_files(str(static_dir), str(dest_path))
+    if os.path.isfile(from_path):
+        generate_page(basepath, from_path, template_path, dest_path)
     else:
-        generate_pages_recursive(content_path, path_template, path_public)
+        generate_pages_recursive(basepath, from_path, template_path, dest_path)
