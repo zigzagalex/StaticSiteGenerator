@@ -72,7 +72,7 @@ Rams said more by designing less. And in a world overloaded with noise, **less s
 
 ---
 
-> Want to see his principles in action? Check out [10 Principles, 0 Bullsh*t: Why Dieter Rams Still Runs Modern Design](/blog/glorfindel)
+> Want to see his principles in action? Check out [10 Principles, 0 Bullsh*t: Why Dieter Rams Still Runs Modern Design](/blog/10-Principles)
 
 Or, if you’re tired of chaotic websites, read [Why Your Website Needs a Little More Rams and a Lot Less Chaos](/blog/majesty).
 

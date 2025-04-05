@@ -1,57 +1,93 @@
-# Why Tom Bombadil Was a Mistake
+# Why Your Website Needs a Little More Rams and a Lot Less Chaos
 
-[< Back Home](/)
+![Cluttered website vs clean Rams design](/images/Vitra-606.jpeg)
 
-![Tom Bombadil image](/images/tom.png)
+Your website is trying to say one thing, but it's drowning in popups, banners, five different fonts, and seventeen CTA buttons.
 
-> "Old Tom Bombadil is a merry fellow; bright blue his jacket is, and his boots are yellow. Alas, his merry song may not belong in this plot's prolonged confluence."
+Dieter Rams would be horrified. And he’d be right.
 
-In the vast and intricate weave of J.R.R. Tolkien's legendarium, amidst heroes of renown and tales of high adventure, there exists a curious anomaly: Tom Bombadil. This peculiar figure, whimsical and unfettered by the weight of Middle-earth's burdens, has long been a point of contention among scholars and enthusiasts. While his character exudes charm and mystery, I, as an ancient **Archmage**, must assert that his inclusion in _The Lord of the Rings_ was, unfortunately, a narrative misstep.
+> "Good design is as little design as possible."
+>
+> — Dieter Rams
 
-_An unpopular opinion, I know._
+Let’s fix it.
 
-## Introduction
+---
 
-Having traversed the corridors of Tolkien's sprawling world, immersed in its lore, I have come to understand the impact of cohesion and momentum in storytelling. Thus, I find myself compelled to examine Tom Bombadil's role and question the necessity of his presence within the epic saga. As we embark on this critical inquiry, let us consider the reasons why Old Tom's playful presence may be seen as a disruptive force.
+## 1. Strip it down
 
-## An Intriguing Yet Disjointed Figure
+Rams believed in removing the unnecessary until only the essential remains. Most websites today? The opposite.
 
-### A Divergence from Narrative Flow
+**Do this:**
+- Cut your homepage content in half.
+- Kill anything that moves unless it’s critical.
+- Stick to one typeface. Maybe two.
 
-Tolkien's epic is known for its meticulous pacing and the gravity of its themes. Enter Tom Bombadil—a character whose frivolity and detachment from worldly events create a jarring contrast within the otherwise cohesive narrative:
+**Rams-style example:** Notion, Apple.com, or basically any Muji product page.
 
-1. **An Unnecessary Interlude**: The encounter with Tom, while quaint and endearing, serves as a temporal diversion that detracts from the urgency of the Fellowship's quest.
-2. **An Outlier in Purpose**: His escapades, while rich in mirth, add little to the central narrative, raising questions about their relevance in the grand design of Middle-earth.
+---
 
-## An Enigma that Remains Unresolved
+## 2. Guide, don’t shout
 
-### A Break from Coherence
+Good design is **understandable**. Rams’ Braun T3 radio had one dial. Your site shouldn’t feel like a cockpit.
 
-In a tale defined by intricate connections and deeply rooted mythology, Bombadil's inexplicable nature poses a challenge to the narrative's internal logic:
+**Do this:**
+- One clear primary CTA.
+- Use space to guide the eye.
+- Don’t compete with yourself visually.
 
-- **A Mystery Without Resolution**: Unlike other enigmatic figures whose backstories enrich the tapestry, Tom remains enigmatic, shrouded in mystery that neither advances the plot nor deepens the lore.
-- **A Departure from Tone**: His presence, filled with lighthearted songs and whimsical antics, contrasts sharply with the solemnity and tension that define the rest of the saga.
+**Rams-style example:** Dropbox’s old landing page — one job, done well.
 
-```
-print("Tom")
-print("Bombadil")
-print("A")
-print("Mystery")
-```
+---
 
-## A Theme of **Disruption**
+## 3. No fake features
 
-### An Element of Distraction
+Rams hated inauthenticity. If your button isn’t clickable, don’t make it look like one. If your animation doesn't help, lose it.
 
-Tom Bombadil's inclusion inadvertently shifts focus from the pressing matters of Middle-earth, introducing themes that sit uneasily with the narrative's core:
+**Do this:**
+- Only use animations for **actual feedback**.
+- Make things do what they look like they do.
 
-- **A Shift in Focus**: His carefree demeanor and ability to withhold the power of the One Ring, while intriguing, distract from the overarching themes of sacrifice and moral complexity.
-- **A Misstep in Continuity**: His segment, charming as it may be, disrupts the journey's continuous build-up towards the looming confrontation with darkness.
+**Rams-style example:** Clean checkout flows (Stripe, Gumroad). Honest UX.
 
-## Conclusion
+---
 
-As we ponder the manifold wonders and intricacies of Tolkien's world, it is evident that Tom Bombadil, while delightfully unique, was a narrative anomaly—a whimsical reflection in the mirror of Middle-earth's grand narrative. While his character captivates with a certain mystique, it answers questions that were never asked, leaving readers with more enigmas than revelations.
+## 4. Prioritize durability
 
-In conclusion, as one who has explored the mythic past of Middle-earth and sought coherence in its storied legacy, I propose that Tom Bombadil, for all his merriment and enigma, was a divergence from the tale's destined path—a curiosity that, while endearing to some, stands as a reminder that even in the most meticulously crafted worlds, not all paths lead to the fulfillment of the quest.
+Rams built products to last decades. Your site might not need to last that long, but it **shouldn’t break next month.**
 
-Thus, let us bid farewell to Old Tom with a final song, recognizing both his charm and the discord his presence sowed. For within the hallowed pages of Tolkien's masterpiece, every beat must resonate with purpose, lest the harmony of the tale be lost to idle whimsy.
+**Do this:**
+- Use fewer dependencies.
+- Test your layout at different screen sizes.
+- Be boring in the best way.
+
+**Rams-style example:** Basecamp. Quietly functional. Still works.
+
+---
+
+## 5. Details matter
+
+Every pixel is a design decision. Rams would rather cut a feature than make it ugly.
+
+**Do this:**
+- Align your text. Like, actually align it.
+- Match your spacing system.
+- Don’t eyeball anything — use grids.
+
+**Rams-style example:** Framer, Vercel, Linear. Precision everywhere.
+
+---
+
+### The TL;DR:
+
+- Simpler is better.
+- Clear is kind.
+- Honest design builds trust.
+
+Good design is good UX. And Dieter Rams was doing it before UX was even a word.
+
+Want to see Rams' 10 principles in action? Read [10 Principles, 0 Bullsh*t: Why Dieter Rams Still Runs Modern Design](/blog/10-Principles)
+
+Or learn how he literally predesigned Apple: [Braun > Beats: Dieter Rams Designed the Future Before You Were Born](/blog/Modern-Design)
+
+Your site doesn’t need a redesign. It needs a Rams design.
