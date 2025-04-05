@@ -104,6 +104,6 @@ Minimalism isn’t emptiness. It’s **intention.**
 
 
 
-Want more Rams? Check out [Braun > Beats: Dieter Rams Designed the Future Before You Were Born](/blog/tom) or [Why Your Website Needs a Little More Rams and a Lot Less Chaos](/blog/majesty).
+Want more Rams? Check out [Braun > Beats: Dieter Rams Designed the Future Before You Were Born](/blog/Modern-Design) or [Why Your Website Needs a Little More Rams and a Lot Less Chaos](/blog/Chaos).
 
 Ready to rethink your work? Start with Rams.

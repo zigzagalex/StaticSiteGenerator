@@ -12,7 +12,7 @@ Here's the deal, **I like Dieter Rams**.
 
 - [10 Principles, 0 Bullsh*t: Why Dieter Rams Still Runs Modern Design](/blog/10-Principles)
 - [Braun > Beats: Dieter Rams Designed the Future Before You Were Born](/blog/Modern-Design)
-- [Why Your Website Needs a Little More Rams and a Lot Less Chaos](/blog/majesty)
+- [Why Your Website Needs a Little More Rams and a Lot Less Chaos](/blog/Chaos)
 
 ## Reasons I like Rams
 
