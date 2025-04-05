@@ -10,7 +10,7 @@ Here's the deal, **I like Dieter Rams**.
 
 ## Blog posts
 
-- [10 Principles, 0 Bullsh*t: Why Dieter Rams Still Runs Modern Design](/blog/glorfindel)
+- [10 Principles, 0 Bullsh*t: Why Dieter Rams Still Runs Modern Design](/blog/10-Principles)
 - [Braun > Beats: Dieter Rams Designed the Future Before You Were Born](/blog/tom)
 - [Why Your Website Needs a Little More Rams and a Lot Less Chaos](/blog/majesty)
 
@@ -46,7 +46,7 @@ In **coding**, this translates to:
 3. No cleverness for cleverness’s sake
 4. Just what’s needed — nothing more.
 
-```python
+```
 def get_user_name_if_exists(user_dict):
     if "name" in user_dict.keys():
         return user_dict["name"]
